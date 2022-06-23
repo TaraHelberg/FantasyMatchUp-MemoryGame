@@ -59,4 +59,11 @@ body {
     background-color: black;
     height: 5em;
     width: 5em;
+    text-align: center;
+}
+
+img {
+    width: 4.5em;
+    display: block;
+    margin: 0.1em auto 0.2em;
 }
