@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;   
+    box-sizing: border-box;        
+}
+
+/* Main body style*/
+body {
+   /* height: 100vh; */   
+}
+
+/*Background Image style*/
+.background {
+    background: url("../images/Background-Fantasy-Forest.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;      
+}
