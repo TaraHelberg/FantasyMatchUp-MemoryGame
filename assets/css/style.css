@@ -31,6 +31,7 @@ body {
 }
 /*Game statistics style*/
 .game-stats {
+    grid-column: 1 / -1; /*added: game container is below our game statistics*/
     font-size: 2em;
     letter-spacing: 0.05em;
     padding: 0.1em 0.1em;
@@ -42,4 +43,20 @@ body {
     display: inline-block;
     vertical-align: middle;
     padding: 0.5em 0.5em;
+}
+
+/*Container for Flip Cards Style*/
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 1em;
+    justify-content: center;
+    margin: 1em;
+}
+
+/*Flip Cards Style*/
+.flip-card {
+    background-color: black;
+    height: 5em;
+    width: 5em;
 }
