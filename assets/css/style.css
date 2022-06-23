@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+
 * {
     margin: 0;
     padding: 0;   
@@ -6,6 +8,7 @@
 
 /* Main body style*/
 body {
+    font-family: 'League Gothic', sans-serif;
    /* height: 100vh; */   
 }
 
@@ -16,4 +19,13 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;      
+}
+
+/*Page Title Style*/
+.page-title {
+    font-size: 4em;
+    letter-spacing: 0.05em;
+    text-align: center;
+    padding: 0.5em;
+    color:  #1b4076;
 }
