@@ -23,7 +23,7 @@ body {
 
 /*Page Title Style*/
 .page-title {
-    font-size: 4em;
+    font-size: 3em;
     letter-spacing: 0.05em;
     text-align: center;
     padding: 0.2em;
@@ -57,13 +57,14 @@ body {
 /*Flip Cards Style*/
 .flip-card {
     background-color: black;
-    height: 5em;
-    width: 5em;
+    height: 5.5em;
+    width: 5.5em;
     text-align: center;
 }
 
 img {
-    width: 4.5em;
+    width: 5.4em;
+    height: 5.4em;
     display: block;
     margin: 0.1em auto 0.2em;
 }
