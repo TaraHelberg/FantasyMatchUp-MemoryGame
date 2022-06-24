@@ -27,10 +27,9 @@ body {
 /*Page Title Style*/
 .page-title {
     font-size: 3em;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.08em;
     text-align: center;
-    padding: 0.2em;
-    color:  black;
+    padding: 0.2em;    
 }
 /*Game statistics style*/
 .game-stats {
@@ -38,9 +37,8 @@ body {
     display: flex;
     justify-content: space-between;
     font-size: 2em;
-    letter-spacing: 0.05em;
-    padding: 0.1em 0.1em;
-    color:  black;
+    letter-spacing: 0.08em;
+    padding: 0.1em 0.1em;    
     text-align: center;
 }
 
@@ -128,4 +126,13 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/*Game Instructions How to Play Style*/
+/*Title Style*/
+.sub-title {
+    font-size: 2em;
+    letter-spacing: 0.05em;
+    text-align: center;
+    padding: 0.2em;   
 }
