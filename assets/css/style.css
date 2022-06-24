@@ -108,3 +108,24 @@ img {
     display: block;
     margin: 0.1em auto 0.2em;
 }
+
+/*Game Reset and how to play Button*/
+.btn {
+    background-color:black;
+    border: none;
+    color: white;
+    padding: 0.3em 0.8em;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 0.5em;    
+    font-size: 1em;
+    margin: 0.5em 1em;
+    cursor: pointer
+}
+
+/*Position buttons to center of page*/
+.btn-position {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
