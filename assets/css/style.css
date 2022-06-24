@@ -132,7 +132,21 @@ img {
 /*Title Style*/
 .sub-title {
     font-size: 2em;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.08em;
     text-align: center;
     padding: 0.2em;   
+}
+/*Contenet and list instructions style*/
+p {
+    font-size: 2em;
+    letter-spacing: 0.08em;
+    text-align: center;
+    padding: 0.2em;  
+}
+
+.list {
+    font-size: 1em;
+    letter-spacing: 0.08em;
+    text-align: center;
+    padding: 0.2em;  
 }
