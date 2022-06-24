@@ -21,6 +21,6 @@ cards.forEach(card => card.addEventListener('click', flipcard));
 
 // Shuffle Memory Cards 
 cards.forEach(card => {
-    const ramdomPos = Math.floor(Math.random() * cards.length); 
-    card.style.order = ramdomPos;    
+    const ramdomPositn = Math.floor(Math.random() * cards.length); 
+    card.style.order = ramdomPositn;    
 });
