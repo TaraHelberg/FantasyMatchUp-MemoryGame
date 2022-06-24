@@ -10,7 +10,7 @@ UX Explained HERE !
 
 ## Balsamiq Wireframes
 
-![ Main Page ](./assets/readme.mdimages/BalsamiqWireFrame.png)
+![ Main Page ](./assets/readmeimages/MainPage.png)
  
 
 # Features

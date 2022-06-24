@@ -1,8 +1,10 @@
 const cards = document.querySelectorAll('.flip-card'); //For Flip Card Function
 const max_match = 8 ;                                  //16 cards 2 pairs = 8 cards maximum number to match 
+const statsflips = document.querySelector(flips);
 
 let hasFlippedCard = false;
 let firstCard,secondCard;
+let flips = 0;
 
 //Flip Card Function
 function flipcard(){
