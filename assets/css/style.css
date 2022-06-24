@@ -6,6 +6,10 @@
     box-sizing: border-box;        
 }
 
+html {
+    min-height: 100vh;
+}
+
 /* Main body style*/
 body {
     font-family: 'League Gothic', sans-serif;
@@ -32,6 +36,8 @@ body {
 /*Game statistics style*/
 .game-stats {
     grid-column: 1 / -1; /*added: game container is below our game statistics*/
+    display: flex;
+    justify-content: space-between;
     font-size: 2em;
     letter-spacing: 0.05em;
     padding: 0.1em 0.1em;
@@ -61,7 +67,7 @@ body {
     width: 5.5em;
     text-align: center;
 }
-
+/*images style*/
 img {
     max-width: 100%;
     max-height: 100%;
