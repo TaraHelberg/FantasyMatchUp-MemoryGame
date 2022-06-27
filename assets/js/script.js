@@ -1,15 +1,19 @@
 const cards = document.querySelectorAll('.flip-card'); //For Flip Card Function
-const max_match = 8 ;                                  //16 cards 2 pairs = 8 cards maximum number to match 
-const statsflips = document.querySelector(flips);
+                         
 
-let hasFlippedCard = false;
-let firstCard,secondCard;
-let flips = 0;
+
+
+let hasFlippedCard = false; 
+let firstCard, secondCard; // fo card match check 
+
+
+ 
 
 //Flip Card Function
 function flipcard(){
-    this.classList.add("flip"); 
-    
+
+    this.classList.add('flip');
+
     if(!hasFlippedCard) {
 
         hasFlippedCard = true;
@@ -17,6 +21,9 @@ function flipcard(){
 
         return;
     }
+
+    secondCard = this;
+    
 }
 
 cards.forEach(card => card.addEventListener('click', flipcard));
@@ -26,3 +33,5 @@ cards.forEach(card => {
     const ramdomPositn = Math.floor(Math.random() * cards.length); 
     card.style.order = ramdomPositn;    
 });
+
+
