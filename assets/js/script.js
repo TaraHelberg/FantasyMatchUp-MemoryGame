@@ -75,4 +75,10 @@ function noMatch() {
       }, 800);     
 }
 
+// To reste Card Game after each round 
+function resetGame() {
+    [CardFlipped, lockBoard] = [false, false];
+    [firstCard, secondCard] = [null, null];
+} 
+
 
