@@ -3,7 +3,7 @@ const max_match = 8;                                   // max_match = 8 16 cards
 
 
 
-
+let runGame = false;
 let CardFlipped = false; 
 let firstCard, secondCard; // for card match check 
 let cardsMatched = 0;
@@ -13,19 +13,25 @@ let lockBoard = false; // lock the game board until cards are matched
 
 //Flip Card Function
 function flipcard(){
+    if(!runGame) {
+        runGame = true;
+    }
+    if(lockBoard) return; // if lockBoard is true the rest of function wont be executed
+    if(this === firstCard) return;
 
     this.classList.add('flip');
 
     if(!CardFlipped) {
 
-        CardFlipped = true;
-        firstCard = this;
+        CardFlipped = true; // first card clicked 
+        firstCard = this; // stores this as the first card
 
         return;
     }
 
-    secondCard = this;
+    secondCard = this; // second card clicked 
     
+    matchedUp(); // for the machedUp to run with this function
 }
 
 cards.forEach(card => card.addEventListener('click', flipcard));
