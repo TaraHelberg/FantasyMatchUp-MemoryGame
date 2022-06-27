@@ -81,4 +81,3 @@ function resetGame() {
     [firstCard, secondCard] = [null, null];
 } 
 
-
