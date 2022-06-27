@@ -30,6 +30,7 @@ function flipcard(){
 
 cards.forEach(card => card.addEventListener('click', flipcard));
 
+
 // Shuffle Memory Cards 
 cards.forEach(card => {
     const ramdomPositn = Math.floor(Math.random() * cards.length); 
