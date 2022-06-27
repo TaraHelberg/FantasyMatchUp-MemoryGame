@@ -1,5 +1,6 @@
 const cards = document.querySelectorAll('.flip-card'); //For Flip Card Function
-const max_match = 8;                                   // max_match = 8 16 cards /2 as 1 flip count =2 flipped cards
+const max_match = 8;
+const flipsstats = document.querySelectorAll(".flips");                                   // max_match = 8 16 cards /2 as 1 flip count =2 flipped cards
 
 
 
@@ -7,7 +8,8 @@ let runGame = false;
 let CardFlipped = false; 
 let firstCard, secondCard; // for card match check 
 let cardsMatched = 0;
-let lockBoard = false; // lock the game board until cards are matched       
+let lockBoard = false; // lock the game board until cards are matched
+let flipcount = 0;       
 
 
 
@@ -72,7 +74,9 @@ function noMatch() {
         secondCard.classList.remove('flip');
 
         resetGame();
-      }, 800);     
+      }, 800); 
+      // add flip counter 
+      addflips();
 }
 
 // To reset Card Game after each round 
@@ -80,4 +84,14 @@ function resetGame() {
     [CardFlipped, lockBoard] = [false, false];
     [firstCard, secondCard] = [null, null];
 } 
+
+// Number of flips counted  Nb: 1 set of flips should = 1 move ..
+flipcount = 0;
+flipsstats.innerhtml = 0;
+
+function addflips() {
+    flips++;
+    flipsstats.innerhtml = flipcount;
+}
+
 
