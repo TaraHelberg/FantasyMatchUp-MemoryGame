@@ -2,7 +2,7 @@
 
 ![amiresponsive]()
 
-INTRODUCTION TO PROJECT
+Fantasy Match up is a basic memory card game based on a fantasy theme .Flip the cards to reveal the image if two match the cards stay up if not they flip back over , remember where they are and try to find the matching images. A timer and flip count is included the aim is to try to beat your personal time and number of flips "turns of the cards" two cards fliped will be counted as only one move as it takes two moves to get a match. I tried to make it as easy to navigate as possible and visualy appealing by adding a nice backround and keeping the images and title as well as the restart and how to play easy to find and use.
 
 # UX 
 

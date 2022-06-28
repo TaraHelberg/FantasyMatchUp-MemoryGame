@@ -1,7 +1,7 @@
 const cards = document.querySelectorAll('.flip-card'); //For Flip Card Function
-const max_match = 8;
-const flipcount = document.querySelector("#flips");                                   // max_match = 8 16 cards /2 as 1 flip count =2 flipped cards
-
+const max_match = 8;                                   //max_match = 8 16 cards /2 as 1 flip count =2 flipped cards 
+const flipcount = document.querySelector("#flips");    //in order to count the number of flips made during a game 2 flips = 1 count                                
+const timercount = document.querySelector("#timer");   // in order to set a timer from first flip to end or restart of game 
 
 
 let runGame = false;
@@ -9,7 +9,8 @@ let CardFlipped = false;
 let firstCard, secondCard; // for card match check 
 let cardsMatched = 0;
 let lockBoard = false; // lock the game board until cards are matched
-let flips = 0;       
+let flips = 0;
+let theTime = "";       
 
 
 
@@ -93,6 +94,29 @@ function addflips(){
     flips++;
     flipcount.innerHTML = flips;
 }
+
+// Timer from 1st flip to end of game
+let time;
+let minutes = 0;
+let seconds = 0;
+let timeStart = false;
+timercount.innerHTML = `Time${minutes}:${seconds}`;
+
+function timer(){
+    time = setInterval(() => {
+        seconds++;
+        if (seconds === 59) {
+            minutes++;
+            seconds = 0;
+        }
+        timercount.innerHTML = "Time" + minutes + ":" + seconds;
+    }, 1000);
+}
+// Stop the timer 
+function stopTime() {
+    clearInterval(time);
+}
+
     
 
 
