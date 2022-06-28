@@ -18,6 +18,7 @@ let theTime = "";
 function flipcard(){
     if(!runGame) {
         runGame = true;
+        runtimer();
     }
     if(lockBoard) return; // if lockBoard is true the rest of function wont be executed
     if(this === firstCard) return;
@@ -99,10 +100,10 @@ function addflips(){
 let time;
 let minutes = 0;
 let seconds = 0;
-let timeStart = false;
+let Starttime = false;
 timercount.innerHTML = `Time${minutes}:${seconds}`;
 
-function timer(){
+function runtimer(){
     time = setInterval(() => {
         seconds++;
         if (seconds === 59) {
@@ -116,6 +117,8 @@ function timer(){
 function stopTime() {
     clearInterval(time);
 }
+
+//Restart Game 
 
     
 
