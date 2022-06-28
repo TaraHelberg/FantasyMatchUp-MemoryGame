@@ -1,6 +1,6 @@
 const cards = document.querySelectorAll('.flip-card'); //For Flip Card Function
 const max_match = 8;
-const flipsstats = document.querySelectorAll(".flips");                                   // max_match = 8 16 cards /2 as 1 flip count =2 flipped cards
+const flipcount = document.querySelector("#flips");                                   // max_match = 8 16 cards /2 as 1 flip count =2 flipped cards
 
 
 
@@ -9,7 +9,7 @@ let CardFlipped = false;
 let firstCard, secondCard; // for card match check 
 let cardsMatched = 0;
 let lockBoard = false; // lock the game board until cards are matched
-let flipcount = 0;       
+let flips = 0;       
 
 
 
@@ -39,7 +39,7 @@ function flipcard(){
 cards.forEach(card => card.addEventListener('click', flipcard));
 
 
-// Shuffle Memory Cards 
+// "Shuffle" Memory Cards 
 cards.forEach(card => {
     const ramdomPositn = Math.floor(Math.random() * cards.length); 
     card.style.order = ramdomPositn;    
@@ -85,13 +85,14 @@ function resetGame() {
     [firstCard, secondCard] = [null, null];
 } 
 
-// Number of flips counted  Nb: 1 set of flips should = 1 move ..
-flipcount = 0;
-flipsstats.innerhtml = 0;
+// Number of flips counted  Nb: 1 set (2 cards flipped) should = 1 move ..
+flips = 0;
+flipcount.innerHTML = 0;
 
-function addflips() {
+function addflips(){
     flips++;
-    flipsstats.innerhtml = flipcount;
+    flipcount.innerHTML = flips;
 }
+    
 
 
