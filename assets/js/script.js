@@ -118,7 +118,25 @@ function stopTime() {
     clearInterval(time);
 }
 
-//Restart Game 
+//Re-Start Game 
+function reset() {
+    setTimeout(() => {
+        CardFlipped = false;
+        [firstCard, secondCard] = [null, null];
+        stopTime();
+        runGame = false;
+        Starttime = false;
+        seconds = 0;
+        minutes = 0;
+        timercount.innerHTML = "Timer 0:00";
+        flips = 0;
+        flipcount.innerHTML = 0;
+        matchedUp = 0;
+        cards.forEach(() => cardRest.classList.remove('flip'));
+        cards.forEach(card => card.addEventListener('click'), flipcard);
+    }, 500);
+} 
+
 
 
     
