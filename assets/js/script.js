@@ -131,9 +131,12 @@ function reset() {
         timercount.innerHTML = "Timer 0:00";
         flips = 0;
         flipcount.innerHTML = 0;
-        matchedUp = 0;
-        cards.forEach(() => cardRest.classList.remove('flip'));
+        cardsMatched = 0;        
         cards.forEach(card => card.addEventListener('click'), flipcard);
+
+        function newFunction() {
+            cards.forEach(() => cardRest.classList.remove('flip'));
+        }
     }, 500);
 } 
 
