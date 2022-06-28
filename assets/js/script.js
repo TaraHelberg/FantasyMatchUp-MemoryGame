@@ -1,15 +1,15 @@
 const cards = document.querySelectorAll('.flip-card'); //For Flip Card Function
-const max_match = 8;                                   //max_match = 8 16 cards /2 as 1 flip count =2 flipped cards 
-const flipcount = document.querySelector("#flips");    //in order to count the number of flips made during a game 2 flips = 1 count                                
-const timercount = document.querySelector("#timer");   // in order to set a timer from first flip to end or restart of game 
+const max_match = 8;                                   //Used to matchup cards as max_match = 8 16 cards /2 as 1 flip count =2 flipped cards 
+const flipcount = document.querySelector("#flips");    //In order to count the number of flips made during a game 2 flips = 1 count                                
+const timercount = document.querySelector("#timer");   //In order to set a timer from first flip to end or restart of game 
 
 
-let runGame = false;
-let CardFlipped = false; 
-let firstCard, secondCard; // for card match check 
-let cardsMatched = 0;
-let lockBoard = false; // lock the game board until cards are matched
-let flips = 0;
+let runGame = false;         // Set to false until the game starts on first card clicked "flipped"
+let CardFlipped = false;     // In order to check to see if the card has been clicke "flipped"
+let firstCard, secondCard;   // In order for cards matchedup to be checked 
+let cardsMatched = 0;        // On 0 for start of game as no cards matched and needed to match up against max-match
+let lockBoard = false;       // Lock the game board until cards are matched
+let flips = 0;               // Starts the game on 0 flips 
 let theTime = "";       
 
 
@@ -17,31 +17,31 @@ let theTime = "";
 //Flip Card Function
 function flipcard(){
     if(!runGame) {
-        runGame = true;
-        runtimer();
+        runGame = true;   // Set to true as game starts on 1st click "flipped" card
+        runtimer();       // In order for the timer to start on the first card clicked "flipped"
     }
-    if(lockBoard) return; // if lockBoard is true the rest of function wont be executed
+    if(lockBoard) return; // If lockBoard is true the rest of function wont be executed
     if(this === firstCard) return;
 
     this.classList.add('flip');
 
     if(!CardFlipped) {
 
-        CardFlipped = true; // first card clicked 
-        firstCard = this; // stores this as the first card
+        CardFlipped = true; // Indicarted the First card clicked "flipped"
+        firstCard = this; // Use to store this as the first card
 
         return;
     }
 
-    secondCard = this; // second card clicked 
+    secondCard = this; // Indicates the Second card clicked "flipped"
     
-    matchedUp(); // for the machedUp to run with this function
+    matchedUp(); // In order for the machedUp to run with along side/ with this function
 }
-
+//The on click event listner for the clicked "flipped" cards
 cards.forEach(card => card.addEventListener('click', flipcard));
 
 
-// "Shuffle" Memory Cards 
+// "Shuffle" Memory Cards to insure that each game has a different card position 
 cards.forEach(card => {
     const ramdomPositn = Math.floor(Math.random() * cards.length); 
     card.style.order = ramdomPositn;    
@@ -81,7 +81,7 @@ function noMatch() {
       addflips();
 }
 
-// To reset Card Game after each round 
+// To reset Cards on the game after each round 
 function resetGame() {
     [CardFlipped, lockBoard] = [false, false];
     [firstCard, secondCard] = [null, null];
@@ -113,7 +113,7 @@ function runtimer(){
         timercount.innerHTML = "Time" + minutes + ":" + seconds;
     }, 1000);
 }
-// Stop the timer 
+// To Stop the timer  
 function stopTime() {
     clearInterval(time);
 }
