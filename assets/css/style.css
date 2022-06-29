@@ -139,6 +139,17 @@ img {
 }
 
 /*Game Instructions How to Play Style*/
+/*Instructions - inst-content modal style*/
+.inst-content {
+  display: none;  /*Hidden by default as modal pop up*/
+  position: fixed;  
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  overflow: auto; /*Incase scroll is required a smaller device may require*/
+  background-color: #1b4076;
+}
+
 /*Title Style*/
 .sub-title {
     font-size: 2.2em;
