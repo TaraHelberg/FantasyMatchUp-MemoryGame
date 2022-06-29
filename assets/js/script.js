@@ -26,7 +26,7 @@ function flipcard(){
     if(lockBoard) return; // If lockBoard is true the rest of function wont be executed
     if(this === firstCard) return;
 
-    this.classList.add('flip');
+    this.classList.toggle('flip');
 
     if(!CardFlipped) {
 
@@ -134,8 +134,7 @@ function reset() {
         timercount.innerHTML = "Timer 0:00";
         flips = 0;
         flipcount.innerHTML = 0;
-        cardsMatched = 0; 
-        cards.forEach(cardReset => cardReset.classList.remove('flip')); 
+        cardsMatched = 0;         
         cards.forEach(card => card.addEventListener('click'), flipcard);                    
     }, 500);
 } 
