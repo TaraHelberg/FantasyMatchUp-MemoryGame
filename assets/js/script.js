@@ -2,6 +2,8 @@ const cards = document.querySelectorAll('.flip-card'); //For Flip Card Function
 const max_match = 8;                                   //Used to matchup cards as max_match = 8 16 cards /2 as 1 flip count =2 flipped cards 
 const flipcount = document.querySelector("#flips");    //In order to count the number of flips made during a game 2 flips = 1 count                                
 const timercount = document.querySelector("#timer");   //In order to set a timer from first flip to end or restart of game 
+const instcontent = document.getElementById("inst-content"); // Used to create the game instructions how to play modal 
+const closemodal = document.getElementById("closeBtn"); // To close the Modal game instructions and go to game page
 
 
 let runGame = false;         // Set to false until the game starts on first card clicked "flipped"
