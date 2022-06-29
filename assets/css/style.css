@@ -124,6 +124,12 @@ img {
     cursor: pointer
 }
 
+.btn:hover {
+    background: #1b4076;    
+    text-decoration: none;
+    transition: 1s; 
+}
+
 /*Position buttons to center of page*/
 .btn-position {
     display: flex;
