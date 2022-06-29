@@ -30,7 +30,7 @@ function flipcard(){
 
     if(!CardFlipped) {
 
-        CardFlipped = true; // Indicarted the First card clicked "flipped"
+        CardFlipped = true; // Indicates the First card clicked "flipped"
         firstCard = this; // Use to store this as the first card
 
         return;
@@ -134,8 +134,8 @@ function reset() {
         timercount.innerHTML = "Timer 0:00";
         flips = 0;
         flipcount.innerHTML = 0;
-        cardsMatched = 0;         
-        cards.forEach(card => card.addEventListener('click'), flipcard);                    
+        cardsMatched = 0; 
+        cards.forEach((cardReset) => cardReset.classList.remove('flip'));                                  
     }, 500);
 } 
 
