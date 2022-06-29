@@ -2,7 +2,8 @@ const cards = document.querySelectorAll('.flip-card'); //For Flip Card Function
 const max_match = 8;                                   //Used to matchup cards as max_match = 8 16 cards /2 as 1 flip count =2 flipped cards 
 const flipcount = document.querySelector("#flips");    //In order to count the number of flips made during a game 2 flips = 1 count                                
 const timercount = document.querySelector("#timer");   //In order to set a timer from first flip to end or restart of game 
-const instcontent = document.getElementById("inst-content"); // Used to create the game instructions how to play modal 
+const instcontent = document.getElementById("inst-content"); // Used to create the game instructions how to play modal
+const modalBtn = document.getElementById("modalBtn");   // To open the Modal game instructions and show the Instructions  
 const closemodal = document.getElementById("closeBtn"); // To close the Modal game instructions and go to game page
 
 
@@ -138,6 +139,23 @@ function reset() {
         cards.forEach(card => card.addEventListener('click'), flipcard);                    
     }, 500);
 } 
+
+// How to Play Game Instructions Modal Show
+function showinstcontent() {
+    instcontent.style.display = "block";
+}
+
+modalBtn.addEventListener('click',showinstcontent); //Listens for the click on how to play game button to display game instruction modal 
+
+// How to Play Game Instructions Modal Close 
+function closeinstcontent() {
+    instcontent.style.display = "none";
+}
+
+closemodal.addEventListener('click',closeinstcontent); // Listens for the click on the "Play Button" in the Modal Game Instructions to close it 
+
+
+
 
 
 
