@@ -122,7 +122,7 @@ function stopTime() {
 function reset() {
     setTimeout(() => {
         CardFlipped = false;
-        [firstCard, secondCard] = [null, null];
+        [firstCard, secondCard] = [null, null];               
         stopTime();
         runGame = false;
         Starttime = false;
@@ -131,12 +131,9 @@ function reset() {
         timercount.innerHTML = "Timer 0:00";
         flips = 0;
         flipcount.innerHTML = 0;
-        cardsMatched = 0;        
-        cards.forEach(card => card.addEventListener('click'), flipcard);
-
-        function newFunction() {
-            cards.forEach(() => cardRest.classList.remove('flip'));
-        }
+        cardsMatched = 0; 
+        cards.forEach(cardReset => cardReset.classList.remove('flip')); 
+        cards.forEach(card => card.addEventListener('click'), flipcard);                    
     }, 500);
 } 
 
