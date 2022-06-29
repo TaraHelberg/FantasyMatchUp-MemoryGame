@@ -46,6 +46,7 @@ body {
     display: inline-block;
     vertical-align: middle;
     padding: 0.5em 0.5em;
+    font-weight: bold;
 }
 
 /*Container for Flip Cards Style*/
@@ -98,7 +99,7 @@ body {
 
 .front {
   transform: rotateY(180deg);
-  background-color: #77a0df;
+  background-color: #1b4076;
 }
 
 /*images style*/
@@ -148,6 +149,7 @@ img {
   top: 0;
   overflow: auto; /*Incase scroll is required a smaller device may require*/
   background-color: #1b4076;
+  border-radius: 1em;
 }
 
 /*Title Style*/
