@@ -6,7 +6,7 @@ const instcontent = document.getElementById("inst-content"); // Used to create t
 const modalBtn = document.getElementById("modalBtn");   // To open the Modal game instructions and show the Instructions  
 const closemodal = document.getElementById("closeBtn"); // To close the Modal game instructions and go to game page
 const winModal = document.getElementById("winModal");   // In Order for the GameWon Modal Message to be displayed at the end of the game once all pairs are matched 
-
+const span = document.getElementsByClassName("close")[0]; // To close the GameWon Modal Message on clicking on the X
 
 let runGame = false;         // Set to false until the game starts on first card clicked "flipped"
 let CardFlipped = false;     // In order to check to see if the card has been clicke "flipped"
@@ -160,7 +160,7 @@ function GameWon() {
     youWonMessage();
 }
 
-// You Won Message - Modal Pop Up
+// You GameWon Message - Modal  
 function youWonMessage() {
     winModal.style.display = "block";
     theTime = timercount.innerHTML;
@@ -168,8 +168,17 @@ function youWonMessage() {
     document.getElementById("theTime").innerHTML = theTime;
     reset();
 }
+// To close the Game Won Message using the x after it has been displayed
+span.onclick = () => {
+    winModal.style.display = "none";
+}
 
-
+// To close the Game Won Message anywhere outside the Modal it will close
+window.onclick = (event) => {
+    if (event.target == winModal) {
+        winModal.style.display = "none";
+    }
+}
 
 
 
