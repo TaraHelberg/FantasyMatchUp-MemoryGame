@@ -52,17 +52,15 @@ body {
 /*Container for Flip Cards Style*/
 .container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;    
+    grid-template-columns: repeat(4 ,auto);    
     grid-gap: 0.3em;
-    justify-content: center;
-    margin-left: 33%;
-    margin-right: 33%;
+    justify-content: center;    
 }
 
 /*Flip Cards Style*/
 .flip-card {    
-    height: 5.5em;
-    width: 5.5em;
+    height: 5em;
+    width: 5em;
     text-align: center;
     position: relative;
     cursor: pointer;
@@ -121,7 +119,7 @@ img {
     border-radius: 0.5em;    
     font-size: 1em;
     letter-spacing: 0.08em;
-    margin: 0.5em 1em;
+    margin: 1.5em 1em;
     cursor: pointer
 }
 
