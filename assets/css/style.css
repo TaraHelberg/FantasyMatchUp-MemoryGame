@@ -145,7 +145,7 @@ img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);   
-  overflow: auto; /*Incase scroll is required a smaller device may require*/
+  overflow: auto; /*Incase scroll is required for a smaller device may require*/
   max-width: 100%;
   background-color: rgb(144, 191, 248);
   border-radius: 1em;      
@@ -171,4 +171,29 @@ p {
     letter-spacing: 0.08em;
     text-align: center;
     padding: 0.2em;  
+}
+
+/*Game You Won Message Style*/
+/*You Won Message "Modal"*/
+.winModal {
+    display: none;  /*Hidden by default as modal pop up*/
+    position: fixed;  
+    z-index: 1000; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
+    overflow: auto; /*Incase scroll is required for a smaller device may require*/
+    max-width: 100%;
+    background-color: rgb(144, 191, 248);
+    border-radius: 1em;      
+}
+/*Close x for Modal You Won Message*/
+.close {
+    color: #1b4076;
+    font-size: 2em;
+}
+
+.close:hover,.close:focus {
+    text-decoration: none;
+    cursor: pointer;
 }

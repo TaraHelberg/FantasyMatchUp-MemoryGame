@@ -153,6 +153,9 @@ function closeinstcontent() {
 
 closemodal.addEventListener('click',closeinstcontent); // Listens for the click on the "Play Button" in the Modal Game Instructions to close it 
 
+//Game Won all pairs Matched and You Won Message "Modal" to be displayed
+
+
 
 
 
