@@ -52,8 +52,7 @@ body {
 /*Container for Flip Cards Style*/
 .container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-row: auto auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;    
     grid-gap: 0.3em;
     justify-content: center;
     margin-left: 33%;
@@ -144,12 +143,14 @@ img {
 .inst-content {
   display: none;  /*Hidden by default as modal pop up*/
   position: fixed;  
-  z-index: 1; 
-  left: 0;
-  top: 0;
+  z-index: 1000; 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);   
   overflow: auto; /*Incase scroll is required a smaller device may require*/
-  background-color: #1b4076;
-  border-radius: 1em;
+  max-width: 100%;
+  background-color: rgb(144, 191, 248);
+  border-radius: 1em;      
 }
 
 /*Title Style*/
