@@ -171,14 +171,14 @@ function youWonMessage() {
 // To close the Game Won Message using the x after it has been displayed
 span.onclick = () => {
     winModal.style.display = "none";
-}
+};
 
 // To close the Game Won Message anywhere outside the Modal it will close
 window.onclick = (event) => {
     if (event.target == winModal) {
         winModal.style.display = "none";
     }
-}
+};
 
 
 
