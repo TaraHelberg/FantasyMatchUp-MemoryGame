@@ -5,6 +5,7 @@ const timercount = document.querySelector("#timer");   //In order to set a timer
 const instcontent = document.getElementById("inst-content"); // Used to create the game instructions how to play modal
 const modalBtn = document.getElementById("modalBtn");   // To open the Modal game instructions and show the Instructions  
 const closemodal = document.getElementById("closeBtn"); // To close the Modal game instructions and go to game page
+const winModal = document.getElementById("winModal");   // In Order for the GameWon Modal Message to be displayed at the end of the game once all pairs are matched 
 
 
 let runGame = false;         // Set to false until the game starts on first card clicked "flipped"
@@ -12,8 +13,8 @@ let CardFlipped = false;     // In order to check to see if the card has been cl
 let firstCard, secondCard;   // In order for cards matchedup to be checked 
 let cardsMatched = 0;        // On 0 for start of game as no cards matched and needed to match up against max-match
 let lockBoard = false;       // Lock the game board until cards are matched
-let flips = 0;               // Starts the game on 0 flips 
-let theTime = "";       
+let flips = 0;               // Starts the game on 0 flips and to be used in GameWon Modal Message
+let theTime = "";            // To be used in GameWon modal message to show theTime taken from start of game and displayed on Game Won Message
 
 
 
@@ -154,7 +155,19 @@ function closeinstcontent() {
 closemodal.addEventListener('click',closeinstcontent); // Listens for the click on the "Play Button" in the Modal Game Instructions to close it 
 
 //Game Won all pairs Matched and You Won Message "Modal" to be displayed
+function GameWon() {
+    stopTime();
+    youWonMessage();
+}
 
+// You Won Message - Modal Pop Up
+function youWonMessage() {
+    winModal.style.display = "block";
+    theTime = timercount.innerHTML;
+    document.getElementById("theFlips").innerHTML = flips;
+    document.getElementById("theTime").innerHTML = theTime;
+    reset();
+}
 
 
 
