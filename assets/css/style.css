@@ -187,13 +187,3 @@ p {
     background-color: rgb(144, 191, 248);
     border-radius: 1em;      
 }
-/*Close x for Modal You Won Message*/
-.closeWin {
-    color: #1b4076;
-    font-size: 2em;
-}
-
-.closeWin:hover,.close:focus {
-    text-decoration: none;
-    cursor: pointer;
-}
