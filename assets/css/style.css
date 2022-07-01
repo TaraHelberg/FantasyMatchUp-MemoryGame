@@ -188,12 +188,12 @@ p {
     border-radius: 1em;      
 }
 /*Close x for Modal You Won Message*/
-.close {
+.closeWin {
     color: #1b4076;
     font-size: 2em;
 }
 
-.close:hover,.close:focus {
+.closeWin:hover,.close:focus {
     text-decoration: none;
     cursor: pointer;
 }
