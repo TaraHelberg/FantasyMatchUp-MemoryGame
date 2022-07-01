@@ -39,7 +39,7 @@ function flipcard(){
 
     secondCard = this; // Indicates the Second card clicked "flipped"
     
-    matchedUp(); // In order for the machedUp to run with along side/ with this function
+    matchedUp(); // In order for the machedUp to run with along side/ with this function   
 }
 //The on click event listner for the clicked "flipped" cards
 cards.forEach(card => card.addEventListener('click', flipcard));
@@ -59,7 +59,7 @@ function matchedUp() {
     if(matched) twoMatched();
     else noMatch();
 
-    if(cardsMatched === max_match) GameWon();
+    if(cardsMatched === max_match) GameWon();    
 } 
 
 // The two Matched cards will be disabled for clicks once flipped and matched 
@@ -157,7 +157,7 @@ closemodal.addEventListener('click',closeinstcontent); // Listens for the click 
 //Game Won all pairs Matched and You Won Message "Modal" to be displayed
 function GameWon() {
     stopTime();
-    youWonMessage();  //To display GameWon message   
+    youWonMessage();  //To display GameWon message           
 }
 
 // You GameWon Message - Modal  
@@ -179,6 +179,6 @@ closeWin.addEventListener('click',closewinModal); //Listens for the click on the
 
 
 
-    
+
 
 
