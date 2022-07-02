@@ -65,7 +65,7 @@ body {
     position: relative;
     cursor: pointer;
     transform: scale(1);
-    transform-style: preserve-3d; /*https://w3collective.com/flip-card-css/*/
+    transform-style: preserve-3d; /* As well as https://w3collective.com/flip-card-css/*/
     transition: transform .5s;
 }
 
