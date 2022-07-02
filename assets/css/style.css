@@ -199,10 +199,16 @@ p {
 /* Media queries */
 /*small smartphones portrait and landscape 320px - 480px */
 @media only screen and (min-width: 320px) and (max-width: 480px) {
+ /*Page Title Style*/
+.page-title {
+    font-size: 2.5em;        
+}
+
+
+    
   /*Flip Cards Style*/
 .flip-card {    
     height: 4.5em;
     width: 4.5em;    
 }
-  
 }
