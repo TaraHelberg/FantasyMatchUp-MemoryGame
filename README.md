@@ -155,9 +155,9 @@ https://validator.w3.org
    * Lighthouse testing system whom I can't find a webpage link for but am grateful for been able to use.
 
 # Copied Code / Code assistance 
-* W3S School for code assistance and information. https://www.w3schools.com/ 
+* W3S School for code assistance and information. //https://www.w3schools.com/howto/howto_css_modals.asp
   Particularly the Modal Pop Ups  
-* 
+* https://marina-ferreira.github.io/tutorials/js/memory-game/ This is the base from my Game I have used the ideas and some of the code from here I have tried to addapt it as much as possible 
 
 # Imagery for Project
 
@@ -170,6 +170,9 @@ https://validator.w3.org
 
  ![]()
  +  ### Note 
- * All information 
+ * All information within this game is for education and training purpouses only .
+ * All code has been as much as possible credited to the source that the code came from 
+ * Please note that I did use google a lot which gave me access to many , many tutorials in making this game and it is possible that I have not refered to something I might have seen that inspired me or gave me direction in this I am appologetitc if I should have forgotten something off as I was in code pen and numerous other sources to get a hang of JavaScript.
+ * I would like to thank everyone for all and any assistance given during the development of my game . 
 
 

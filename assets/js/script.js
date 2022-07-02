@@ -17,7 +17,9 @@ let flips = 0;               // Starts the game on 0 flips and to be used in Gam
 let theTime = "";            // To be used in GameWon modal message to show theTime taken from start of game and displayed on Game Won Message
 
 
-
+// https://marina-ferreira.github.io/tutorials/js/memory-game/ 
+// Game Tutorial used to base game on code taken and addapted from above link.
+// Css 3d card effect also used from the above link.
 //Flip Card Function
 function flipcard(){
     if(!runGame) {
@@ -51,6 +53,8 @@ cards.forEach(card => {
     card.style.order = ramdomPositn;    
 });
 
+// https://marina-ferreira.github.io/tutorials/js/memory-game/ 
+// Game Tutorial used to base game on code taken and addapted from above link for card matching.
 // Used to check if firstCard and secondCard 'data-id = data-image as dataset' are matching up
 function matchedUp() {
     let matched = firstCard.dataset.image === secondCard.dataset.image;
@@ -144,7 +148,8 @@ function reset() {
     }, 500);
 } 
 
-
+//https://www.w3schools.com/howto/howto_css_modals.asp
+// W3School I have used the modal pop up code and addapted for my use both here and in the Html & Css
 // How to Play Game Instructions Modal Show
 function showinstcontent() {
     instcontent.style.display = "block";
@@ -165,6 +170,8 @@ function GameWon() {
     youWonMessage();  //To display GameWon message           
 }
 
+//https://www.w3schools.com/howto/howto_css_modals.asp
+// W3School I have used the modal pop up code and addapted for my use both here and in the Html & Css
 // You GameWon Message - Modal  
 function youWonMessage() {
     winModal.style.display = "block";
