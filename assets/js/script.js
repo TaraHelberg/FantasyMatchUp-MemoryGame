@@ -136,7 +136,11 @@ function reset() {
         flips = 0;
         flipcount.innerHTML = 0;
         cardsMatched = 0; 
-        cards.forEach((cardReset) => cardReset.classList.remove('flip'));                                  
+        cards.forEach((cardReset) => cardReset.classList.remove('flip'));
+        cards.forEach(card => {
+            const ramdomPositn = Math.floor(Math.random() * cards.length); 
+            card.style.order = ramdomPositn;    
+        });                                  
     }, 500);
 } 
 
