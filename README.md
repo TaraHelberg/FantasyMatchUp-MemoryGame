@@ -65,6 +65,7 @@ The page has a Favicon that is a dragon going with the theme of fantasy and the 
     + GitHub for my repository and external project deployment.
     + Google Fonts for my font choose for the project.
     + Favicon.ico for adding a nice little personal touch to my page
+    + W3S Schools for code assistance and information
 
 # Testing
 
@@ -74,29 +75,29 @@ The page has a Favicon that is a dragon going with the theme of fantasy and the 
 
 | Feature           |  Expect              |  Action |  Result                 |
 |-------------------|----------------------|---------|-------------------------|
-|                   |                      |Click On |                         |
-|                   |                      |Click On |                         |
-|                   |                      |Click On |                         |
-|                   |                      |Click On |                         |
-|                   |                      |Click On |                         |
-|                   |                      |Click On |                         |
-|                   |                      |Click On |                         |
-|                   |                      |Click On |                         |
+| Flip Cards x 16   |  Click on flips      |Click On | Flips to reveal back    |
+| Flip Cards x 16   |  When Flips no Match |JS Flips | Flips back over No Match|
+| Flip Cards x 16   |  When Flips Matched  |JS Stays | Flips stay up on Match  |
+| Re-tart Button    |  Re-Starts game      |Click On | 0 Time ,Flip count ,Game|
+| How To Play Button|  Game Rules Pop Up   |Click On | Game Rules Pop Up       |
+| Play Button(Rules)|  Close Rules Pop Up  |Click On | Close Rules Pop Up      |
+| Game Won Message  |  Pops up at Game Won |Game Won | Pops Up Won Message     |
+| Play Again"Button"|  Closes Won Message  |Click On | Closes Won Message      |
  
 * User Testing
 
     + Expectations
       As a user I wanted the site to 
-      1. , 
-      2. ,
-      3. ,
-      4. .
+      1. Be Visualy appealing, 
+      2. Easy to navigate and understand,
+      3. I wanted the game to supply function and the timer , flip count and cards to be responsive and work as they should,
+      4. I wanted to be told when I had won and how long I had taken adn how many flips it had taken me to win so I could try and beat my score.
     + Result
       As a user I was able to  
-      1. ,
-      2. ,
-      3. ,
-      4. . 
+      1. I found it to be Visualy appealing,
+      2. I found it to be easy to navigate and understand,
+      3. I found that the timer, flip count and cards responded as they should,
+      4. I found that I was congratulated ond shown my time and flips . 
 
      
    + Testing done via git preview.
@@ -119,23 +120,24 @@ The page has a Favicon that is a dragon going with the theme of fantasy and the 
 # Validator Testing
 
 * Test Validators
-    + HTML - W3C Html Validator - No errors returned when pass through .
-    + CSS - W3C CSS Validator - No errors returned when pass through .
-    + Jshint - 
+    + HTML - W3C Html Validator - No errors returned when passed through .
+    + CSS - W3C CSS Validator - No errors returned when passed through .
+    + Jshint - Jshint.com - No erros returned when passed through
+    + JavaScript - Dev tools console.log in Miscrosoft Edge - TEST STILL ONGOING !!
     + RESPONSIVENESS - Am I Responsive for different divices media queries.
     + LIGHTHOUSE - Website tested for Performance, Accessibility, Best Practice and SEO as seen below.
 
 # Deployment of Project
 
 * Deployment was made possible by GitHub
-    + Initiated a repository in git : https://
+    + Initiated a repository in git : https://github.com/TaraHelberg/FantasyMatchUp-MemoryGame
     + Created all folders and files and code project
     + Go to GitHub website
     + Go to my repository in the GitHub
     + Go to Settings tab click on
     + Go to GiHub Page and linking the main root to Master Branch 
     + Once this is done the page will automatically creat the ribbon with the http host page name that is been hosted by GitHub.
-    The live link can be found here : https://
+    The live link can be found here : https://tarahelberg.github.io/FantasyMatchUp-MemoryGame/
 
 # Credits
 
@@ -144,7 +146,7 @@ The page has a Favicon that is a dragon going with the theme of fantasy and the 
    * Reuben Ferrante my mentor without all his great guidance I would be lost. A Huge Thanks. https://github.com/arex18
    * The Slack community - for someone always been there no matter the time and with advice or direction. https://slack.com
    * Balsamiq used to build the wireframes for my project. https://balsamiq.com
-   * Google Fonts for my font choose for the project. https://fonts.google.com     
+   * Google Fonts for my font choose for the project. https://fonts.google.com      
    * Free Convert - for compressing my images for better upload time . https://www.freeconvert.com/image-compressor
    * StackOverflow for all the information to assit with my project .https://stackoverflow.com
    * W3C Validators both HTML and CSS to keep a check on my code. The W3C Markup Validation Service
@@ -152,8 +154,10 @@ https://validator.w3.org
    * I am Responsive for a fantastic spot to see a visual of responsiveness. https://ui.dev/amiresponsive?msclkid=400b1adabe5b11ecbc48938198bb87b4
    * Lighthouse testing system whom I can't find a webpage link for but am grateful for been able to use.
 
-* Copied Code / Code assistance  
-
+# Copied Code / Code assistance 
+* W3S School for code assistance and information. https://www.w3schools.com/ 
+  Particularly the Modal Pop Ups  
+* 
 
 # Imagery for Project
 
