@@ -195,3 +195,14 @@ p {
     padding: 3em;
     letter-spacing: 0.08em;
 }
+
+/* Media queries */
+/*small smartphones portrait and landscape 320px - 480px */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  /*Flip Cards Style*/
+.flip-card {    
+    height: 4.5em;
+    width: 4.5em;    
+}
+  
+}

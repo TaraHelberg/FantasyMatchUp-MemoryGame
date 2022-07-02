@@ -168,7 +168,7 @@ https://validator.w3.org
  + Back Card Images : https://pngimg.com/images/fantasy/ - dark pegasus , green dragon ,green fairy and tree groot .
 
 
- ![]()
+ 
  +  ### Note 
  * All information within this game is for education and training purpouses only .
  * All code has been as much as possible credited to the source that the code came from 
