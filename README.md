@@ -9,9 +9,10 @@ The user should be able to enjoy the game and feel calmed by the background and 
 # UX 
 
 I aimed for a visually appealing website that has a fantasy theme , the background image sets the tone for the colours of the game with the forground been in black , white and the silver of the dragons with a hint of blue in them.
-The hovers and backround of the flip cards are in blues that complement the background image and do not detract from the images. The flip cards are made in square blocks so as to fit into the background image with the tree and waterfalls to the sides of the cards visable to make the page visualy appealing with a calming feel from the backroung image.
+The hovers on buttons and backround of the flip cards are in blues that complement the background image and do not detract from the images. The flip cards are made in square blocks so as to fit into the background image with the tree and waterfalls to the sides of the cards visable to make the page visualy appealing with a calming feel from the backroung image.
 Images on the cards of Dragons and once the cards are fliped all images are of fantasy creatures to follow the theme. 
 The layout is simple and consists of a Game Page Title in black to be easily visable aginst the background , under this is the game area that has a timer and flip count at the top and the sixteen game cards under them , followed by the Restart button and how to play button all navigation is simple and easy to see and follow.
+The timer and flip card count originaly at the bottom in the wireframes was moved to the top of the cards as I felt that this was a better place for them to be positioned for hte user.
 On clicking the how to a Modal pop up will display the the game rules.
 At the end of the game another Modal pup up willd display the users winning scores amount of time and flips taken.
 The page has a Favicon that is a dragon going with the theme of fantasy and the dragons on the front of the flip cards
@@ -19,7 +20,7 @@ The page has a Favicon that is a dragon going with the theme of fantasy and the 
 
 ## Balsamiq Wireframes
 
-![ Main Page ](./assets/readmeimages/MainPage.png)
+![ Main Page ](./assets/readmeimages/wireframes.png)
  
 
 # Features
@@ -34,7 +35,7 @@ The page has a Favicon that is a dragon going with the theme of fantasy and the 
 
 # Game Page   
 
-![Home Page](./assets/readmeimages/404.html.png)
+![Game Page](./assets/readmeimages/index.html.png)
 
 * Page Tile 
     + The Page Title is displayed in Black to be easliy Visable against the background image
@@ -47,7 +48,7 @@ The page has a Favicon that is a dragon going with the theme of fantasy and the 
  
 # 404 Error Page Not found
 
-![404.html Page Not Found]()
+![404.html Page Not Found](./assets/readmeimages/404.html.png)
 
 * 404.html Section
     + 404 Error message visable with an appology and request to try again later.
