@@ -140,6 +140,7 @@ function reset() {
     }, 500);
 } 
 
+
 // How to Play Game Instructions Modal Show
 function showinstcontent() {
     instcontent.style.display = "block";
@@ -174,7 +175,7 @@ function closewinModal() {
 }
 
 closeWin.addEventListener('click',closewinModal); //Listens for the click on the X to close the Modal
-  
+
 
 
 
