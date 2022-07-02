@@ -175,7 +175,7 @@ function youWonMessage() {
 }
 // To close the Game Won Message using the x after it has been displayed
 function closewinModal() {
-    winModal.style.display = "none";
+    winModal.style.display = "none";    
 }
 
 closeWin.addEventListener('click',closewinModal); //Listens for the click on the X to close the Modal
