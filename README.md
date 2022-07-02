@@ -34,7 +34,7 @@ The page has a Favicon that is a dragon going with the theme of fantasy and the 
 
 # Game Page   
 
-![Home Page]()
+![Home Page](./assets/readmeimages/404.html.png)
 
 * Page Tile 
     + The Page Title is displayed in Black to be easliy Visable against the background image
