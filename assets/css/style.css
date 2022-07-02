@@ -187,3 +187,10 @@ p {
     background-color: rgb(144, 191, 248);
     border-radius: 1em;      
 }
+
+/*404 Page Not Found*/
+#pgnotfound {
+    text-align: center;
+    font-size: 2em;
+    padding: 3em;
+}
