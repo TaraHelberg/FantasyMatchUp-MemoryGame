@@ -203,12 +203,12 @@ p {
 .page-title {
     font-size: 2.5em;        
 }
-
-
     
   /*Flip Cards Style*/
 .flip-card {    
     height: 4.5em;
-    width: 4.5em;    
+    width: 4.5em;
+    text-align: center;
+    position: relative;    
 }
 }
