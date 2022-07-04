@@ -110,7 +110,7 @@ The page has a Favicon that is a dragon going with the theme of fantasy and the 
    + CSS was tested through W3C CSS Validator 
    + JavaScript testing done via dev tools in Microsoft Edge via console.log
    + JavaScript also run through Jshint
-   + HTML was run through an online formatter, FreeFormatter.com
+   + HTML was run through an online formatter, https://www.freeformatter.com/html-formatter.html
    + Responsive design media queries tested through Am I Responsive
    + Lighthouse used to test webpage for Performance, Accessibility , Best Practice and SEO
    + Deployed project was tested in my default browser Microsoft Edge as wells as Google Chrome and Firefox.
