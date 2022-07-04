@@ -51,6 +51,7 @@ The page has a Favicon that is a dragon going with the theme of fantasy and the 
 ![404.html Page Not Found](./assets/readmeimages/404.html.png)
 
 * 404.html Section
+    + Backround Iamge the same as index.html Game page
     + 404 Error message visable with an appology and request to try again later.
 
 # Technologies / Support Used
@@ -122,10 +123,10 @@ The page has a Favicon that is a dragon going with the theme of fantasy and the 
 * Test Validators
     + HTML - W3C Html Validator - No errors returned when passed through .
     + CSS - W3C CSS Validator - No errors returned when passed through .
-    + Jshint - Jshint.com - No erros returned when passed through
-    + JavaScript - Dev tools console.log in Miscrosoft Edge - TEST STILL ONGOING !!
-    + RESPONSIVENESS - Am I Responsive for different divices media queries.
-    + LIGHTHOUSE - Website tested for Performance, Accessibility, Best Practice and SEO as seen below.
+    + Jshint - Jshint.com - No erros returned when passed through .
+    + JavaScript - Dev tools console.log in Miscrosoft Edge - No errors showing in Console.log .
+    + RESPONSIVENESS - Am I Responsive for different divices media queries .
+    + LIGHTHOUSE - Website tested for Performance, Accessibility, Best Practice and SEO as seen below .
 
 # Deployment of Project
 
@@ -138,6 +139,7 @@ The page has a Favicon that is a dragon going with the theme of fantasy and the 
     + Go to GiHub Page and linking the main root to Master Branch 
     + Once this is done the page will automatically creat the ribbon with the http host page name that is been hosted by GitHub.
     The live link can be found here : https://tarahelberg.github.io/FantasyMatchUp-MemoryGame/
+    + Project was cloned via GitHub :
 
 # Credits
 
@@ -172,7 +174,7 @@ https://validator.w3.org
  +  ### Note 
  * All information within this game is for education and training purpouses only .
  * All code has been as much as possible credited to the source that the code came from 
- * Please note that I did use google a lot which gave me access to many , many tutorials in making this game and it is possible that I have not refered to something I might have seen that inspired me or gave me direction in this I am appologetitc if I should have forgotten something off as I was in code pen and numerous other sources to get a hang of JavaScript.
+ * Please note that I did use google a lot which gave me access to many , many tutorials in making this game and it is possible that I have not refered to something I might have seen that inspired me or gave me direction in this I am appologetitc if I should have forgotten to refere to code that inspired me during my project.
  * I would like to thank everyone for all and any assistance given during the development of my game . 
 
 
