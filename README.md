@@ -143,7 +143,17 @@ The page has a Favicon that is a dragon going with the theme of fantasy and the 
     + Go to GitHub Page and linking the main root to Master Branch 
     + Once this is done the page will automatically create the ribbon with the http host page name that is been hosted by GitHub.
     The live link can be found here : https://tarahelberg.github.io/FantasyMatchUp-MemoryGame/
-    + Project was cloned via GitHub :
+   
+# Clone Project
+
+* Cloning of Project was made possible by GitHub
++ Go to Git Hub
++ Go to Off Fantasy Match Up  https://github.com/TaraHelberg/FantasyMatchUp-MemoryGame
++ Click on it to go to main repository site
++ Click on the Code drop down button menu next to the greeen Gippod button
++ Click on HTTP section you will see the http of the repository click on the window next to it it will say copied
++ Clikced on Download and Zip
++ Clicked on Open with GitHubDesktop
 
 # Credits
 
