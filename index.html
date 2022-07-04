@@ -1,152 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Fantasy Match Up, memeory game , match pairs ,win">
-    <meta name="keywords" content="memory game ,fantasy theme, match pairs and win when all are matched">
-
-    <!--Link to CSS Style Sheet-->
-    <link rel="stylesheet" href="assets/css/style.css">
-    <!--Favicon Link-->
-    <link href="./favicon.ico" rel="icon" type="image/x-icon" />
-    <title>Fantasy Match Up</title>
-</head>
-<body class="background">
-    <!--Page Title-->
-    <h1 class="page-title">Fantasy Match Up</h1>  
-    <!--Fantasy Memory Card Game Section-->
-    <section>
-        <h2 hidden>Memory Game</h2>
-        <div class="container">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="Fantasy Match Up, memeory game , match pairs ,win">
+      <meta name="keywords" content="memory game ,fantasy theme, match pairs and win when all are matched">
+      <!--Link to CSS Style Sheet-->
+      <link rel="stylesheet" href="assets/css/style.css">
+      <!--Favicon Link-->
+      <link href="./favicon.ico" rel="icon" type="image/x-icon" />
+      <title>Fantasy Match Up</title>
+   </head>
+   <body class="background">
+      <!--Page Title-->
+      <h1 class="page-title">Fantasy Match Up</h1>
+      <!--Fantasy Memory Card Game Section-->
+      <section>
+         <h2 hidden>Memory Game</h2>
+         <div class="container">
             <!--Game statistics-->
             <div class="game-stats">
-                <div class="stats">
-                    <span id="timer"></span>
-                </div>
-                <div class="stats">
-                    Flips <span id="flips">0</span>
-                </div>               
+               <div class="stats">
+                  <span id="timer"></span>
+               </div>
+               <div class="stats">
+                  Flips <span id="flips">0</span>
+               </div>
             </div>
             <!--Flip Cards--> 
             <div class="flip-card" data-image="Card-Front-dark-fey.png">
-                <img class="front" src="assets/images/Card-Front-dark-fey.png" alt="fantasy female bunny ears fey dark clothing">
-                <img class="back" src="assets/images/Card-Back-fantasy-dragon.png" alt="silver dragon">                
-            </div>       
+               <img class="front" src="assets/images/Card-Front-dark-fey.png" alt="fantasy female bunny ears fey dark clothing">
+               <img class="back" src="assets/images/Card-Back-fantasy-dragon.png" alt="silver dragon">                
+            </div>
             <div class="flip-card" data-image="Card-Front-dark-fey.png">
-                <img class="front" src="assets/images/Card-Front-dark-fey.png" alt="fantasy female bunny ears fey dark clothing">
-                <img class="back" src="assets/images/Card-Back-fantasy-dragon.png" alt="silver dragon">
+               <img class="front" src="assets/images/Card-Front-dark-fey.png" alt="fantasy female bunny ears fey dark clothing">
+               <img class="back" src="assets/images/Card-Back-fantasy-dragon.png" alt="silver dragon">
             </div>
             <div class="flip-card" data-image="Card-Front-dark-griffon.png">
-                <img class="front" src="assets/images/Card-Front-dark-griffon.png" alt="brown and white Griffon">
-                <img class="back" src="assets/images/Card-Back-fantasy-dragon.png" alt="silver dragon">
+               <img class="front" src="assets/images/Card-Front-dark-griffon.png" alt="brown and white Griffon">
+               <img class="back" src="assets/images/Card-Back-fantasy-dragon.png" alt="silver dragon">
             </div>
             <div class="flip-card" data-image="Card-Front-dark-griffon.png">
-                <img class="front" src="assets/images/Card-Front-dark-griffon.png" alt="brown and white Griffon">
-                <img class="back" src="assets/images/Card-Back-fantasy-dragon.png" alt="silver dragon">
+               <img class="front" src="assets/images/Card-Front-dark-griffon.png" alt="brown and white Griffon">
+               <img class="back" src="assets/images/Card-Back-fantasy-dragon.png" alt="silver dragon">
             </div>
             <div class="flip-card" data-image="Card-Front-dark-pegasus.png">
-                <img class="front" src="assets/images/Card-Front-dark-pegasus.png" alt="white and black pegasus">
-                <img class="back" src="assets/images/Card-Back-fantasy-dragon.png" alt="silver dragon">
+               <img class="front" src="assets/images/Card-Front-dark-pegasus.png" alt="white and black pegasus">
+               <img class="back" src="assets/images/Card-Back-fantasy-dragon.png" alt="silver dragon">
             </div>
             <div class="flip-card" data-image="Card-Front-dark-pegasus.png">
-                <img class="front" src="assets/images/Card-Front-dark-pegasus.png" alt="white and black pegasus">
-                <img class="back" src="assets/images/Card-Back-fantasy-dragon.png" alt="silver dragon">
+               <img class="front" src="assets/images/Card-Front-dark-pegasus.png" alt="white and black pegasus">
+               <img class="back" src="assets/images/Card-Back-fantasy-dragon.png" alt="silver dragon">
             </div>
             <div class="flip-card" data-image="Card-Front-green-dragon.png">
-                <img class="front" src="assets/images/Card-Front-green-dragon.png" alt="green gothic dragon">
-                <img class="back" src="assets/images/Card-Back-fantasy-dragon.png" alt="silver dragon">
+               <img class="front" src="assets/images/Card-Front-green-dragon.png" alt="green gothic dragon">
+               <img class="back" src="assets/images/Card-Back-fantasy-dragon.png" alt="silver dragon">
             </div>
             <div class="flip-card" data-image="Card-Front-green-dragon.png">
-                <img class="front" src="assets/images/Card-Front-green-dragon.png" alt="green gothic dragon">
-                <img class="back" src="assets/images/Card-Back-fantasy-dragon.png" alt="silver dragon">
+               <img class="front" src="assets/images/Card-Front-green-dragon.png" alt="green gothic dragon">
+               <img class="back" src="assets/images/Card-Back-fantasy-dragon.png" alt="silver dragon">
             </div>
             <div class="flip-card" data-image="Card-Front-green-fairy.png">
-                <img class="front" src="assets/images/Card-Front-green-fairy.png" alt="green mystical fairy">
-                <img class="back" src="assets/images/Card-Back-fantasy-dragon.png" alt="silver dragon">
+               <img class="front" src="assets/images/Card-Front-green-fairy.png" alt="green mystical fairy">
+               <img class="back" src="assets/images/Card-Back-fantasy-dragon.png" alt="silver dragon">
             </div>
             <div class="flip-card" data-image="Card-Front-green-fairy.png">
-                <img class="front" src="assets/images/Card-Front-green-fairy.png" alt="green mystical fairy">
-                <img class="back" src="assets/images/Card-Back-fantasy-dragon.png" alt="silver dragon">
+               <img class="front" src="assets/images/Card-Front-green-fairy.png" alt="green mystical fairy">
+               <img class="back" src="assets/images/Card-Back-fantasy-dragon.png" alt="silver dragon">
             </div>
             <div class="flip-card" data-image="Card-Front-green-fey.png">
-                <img class="front" src="assets/images/Card-Front-green-fey.png" alt="green woodlands women fey">
-                <img class="back" src="assets/images/Card-Back-fantasy-dragon.png" alt="silver dragon">
+               <img class="front" src="assets/images/Card-Front-green-fey.png" alt="green woodlands women fey">
+               <img class="back" src="assets/images/Card-Back-fantasy-dragon.png" alt="silver dragon">
             </div>
             <div class="flip-card" data-image="Card-Front-green-fey.png">
-                <img class="front" src="assets/images/Card-Front-green-fey.png" alt="green woodlands women fey">
-                <img class="back" src="assets/images/Card-Back-fantasy-dragon.png" alt="silver dragon">
+               <img class="front" src="assets/images/Card-Front-green-fey.png" alt="green woodlands women fey">
+               <img class="back" src="assets/images/Card-Back-fantasy-dragon.png" alt="silver dragon">
             </div>
             <div class="flip-card" data-image="Card-Front-pink-wingcat.png">
-                <img class="front" src="assets/images/Card-Front-pink-wingcat.png" alt="pink fantsy wingged cat">
-                <img class="back" src="assets/images/Card-Back-fantasy-dragon.png" alt="silver dragon">
+               <img class="front" src="assets/images/Card-Front-pink-wingcat.png" alt="pink fantsy wingged cat">
+               <img class="back" src="assets/images/Card-Back-fantasy-dragon.png" alt="silver dragon">
             </div>
             <div class="flip-card" data-image="Card-Front-pink-wingcat.png">
-                <img class="front" src="assets/images/Card-Front-pink-wingcat.png" alt="pink fantsy wingged cat">
-                <img class="back" src="assets/images/Card-Back-fantasy-dragon.png" alt="silver dragon">
+               <img class="front" src="assets/images/Card-Front-pink-wingcat.png" alt="pink fantsy wingged cat">
+               <img class="back" src="assets/images/Card-Back-fantasy-dragon.png" alt="silver dragon">
             </div>
             <div class="flip-card" data-image="Card-Front-tree-groot.png">
-                <img class="front" src="assets/images/Card-Front-tree-groot.png" alt="standing wooden groot">
-                <img class="back" src="assets/images/Card-Back-fantasy-dragon.png" alt="silver dragon">
+               <img class="front" src="assets/images/Card-Front-tree-groot.png" alt="standing wooden groot">
+               <img class="back" src="assets/images/Card-Back-fantasy-dragon.png" alt="silver dragon">
             </div>
             <div class="flip-card" data-image="Card-Front-tree-groot.png">
-                <img class="front" src="assets/images/Card-Front-tree-groot.png" alt="standing wooden groot">
-                <img class="back" src="assets/images/Card-Back-fantasy-dragon.png" alt="silver dragon">
+               <img class="front" src="assets/images/Card-Front-tree-groot.png" alt="standing wooden groot">
+               <img class="back" src="assets/images/Card-Back-fantasy-dragon.png" alt="silver dragon">
             </div>
-        </div>
-    </section>
-    <!--Game Reset and how to play Button Section-->
-    <section>
-        <h2 hidden>Rest Button</h2>
-        <div class="btn-position">
+         </div>
+      </section>
+      <!--Game Reset and how to play Button Section-->
+      <section>
+         <h2 hidden>Rest Button</h2>
+         <div class="btn-position">
             <button class="btn" onclick="reset()">Re-Start</button>
             <button class="btn" id="modalBtn">How to Play</button>
-        </div>
-    </section>
-    <!--Game Instructions How to Play "Modal"-->    
-    <section>
-        <div class="inst-content" id="inst-content">
+         </div>
+      </section>
+      <!--Game Instructions How to Play "Modal"-->    
+      <section>
+         <div class="inst-content" id="inst-content">
             <!--Modal Header-->           
             <div>
-                <h2 class="sub-title">How To Play</h2>
+               <h2 class="sub-title">How To Play</h2>
             </div>
             <!--Modal Game Instruction Content-->
-            <div> 
-                 <p><strong>Welcome</strong></p>
-                 <ol class="list">
-                    <li>Click on the cards to flip them over</li>
-                    <li>Match 2 Pairs,only two cards can be clicked at a time</li>
-                    <li>Match pairs will stay up , unmatched will flip over</li>
-                    <li>You will be timed, try to beat your time :D</li>
-                    <li>The number of times you flip cards is tracked see if you can beat it :D</li>                
-                 </ol>
-                 <p><strong>Good Luck & Enjoy</strong></p>
-                 <!--Modal close Button-->                   
-                 <div class="btn-position"><span id="closeBtn" class="btn">Play</span></div>
+            <div>
+               <p><strong>Welcome</strong></p>
+               <ol class="list">
+                  <li>Click on the cards to flip them over</li>
+                  <li>Match 2 Pairs,only two cards can be clicked at a time</li>
+                  <li>Match pairs will stay up , unmatched will flip over</li>
+                  <li>You will be timed, try to beat your time :D</li>
+                  <li>The number of times you flip cards is tracked see if you can beat it :D</li>
+               </ol>
+               <p><strong>Good Luck & Enjoy</strong></p>
+               <!--Modal close Button-->                   
+               <div class="btn-position"><span id="closeBtn" class="btn">Play</span></div>
             </div>
-        </div>
-    </section>
-    <!--You Won Message "Modal"-->
-    <section>
-        <div class="winModal" id="winModal">
+         </div>
+      </section>
+      <!--You Won Message "Modal"-->
+      <section>
+         <div class="winModal" id="winModal">
             <!--Modal Header Message-->           
-            <div>               
-                <h2 class="sub-title">You Won !!</h2>
+            <div>
+               <h2 class="sub-title">You Won !!</h2>
             </div>
             <!--Modal You Won Message-->
             <div>
-                <p><strong>! Congratulations !</strong></p>
-                <P>You have Matched All the Pairs</P>
-                <p>Your Flips score Is:<span id="theFlips">Flips</span></p>
-                <p>Made in : <span id="theTime"></span></p>
-                 <!--Modal close Button-->
-                 <div class="btn-position"><span id="closeWin" class="btn">Play Again</span></div>
+               <p><strong>! Congratulations !</strong></p>
+               <P>You have Matched All the Pairs</P>
+               <p>Your Flips score Is:<span id="theFlips">Flips</span></p>
+               <p>Made in : <span id="theTime"></span></p>
+               <!--Modal close Button-->
+               <div class="btn-position"><span id="closeWin" class="btn">Play Again</span></div>
             </div>
-        </div>    
-    </section>    
-
-     <!--Link to Javascript stylesheet-->
-     <script src="assets/js/script.js"></script>
-</body>
+         </div>
+      </section>
+      <!--Link to Javascript stylesheet-->
+      <script src="assets/js/script.js"></script>
+   </body>
 </html>
