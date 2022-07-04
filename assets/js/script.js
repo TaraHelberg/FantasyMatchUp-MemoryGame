@@ -177,12 +177,14 @@ function youWonMessage() {
     winModal.style.display = "block";
     theTime = timercount.innerHTML;
     document.getElementById("theFlips").innerHTML = flips;
-    document.getElementById("theTime").innerHTML = theTime;
-    reset();
+    document.getElementById("theTime").innerHTML = theTime;         
 }
 // To close the Game Won Message using the x after it has been displayed
 function closewinModal() {
     winModal.style.display = "none";    
+    reset();
+    location.reload();
+    return false;      
 }
 
 closeWin.addEventListener('click',closewinModal); //Listens for the click on the X to close the Modal
