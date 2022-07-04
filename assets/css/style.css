@@ -92,6 +92,7 @@ body {
   overflow: hidden;
   transition: transform 600ms ease-in-out;
   backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
 }
 
 .front {
