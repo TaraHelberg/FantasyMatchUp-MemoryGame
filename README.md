@@ -82,7 +82,7 @@ The page has a Favicon that is a dragon going with the theme of fantasy and the 
 | Flip Cards x 16   |  Click on flips      |Click On | Flips to reveal back    |
 | Flip Cards x 16   |  When Flips no Match |JS Flips | Flips back over No Match|
 | Flip Cards x 16   |  When Flips Matched  |JS Stays | Flips stay up on Match  |
-| Re-tart Button    |  Re-Starts game      |Click On | 0 Time ,Flip count ,Game|
+| Re-Start Button   |  Re-Starts game      |Click On | 0 Time ,Flip count ,Game|
 | How To Play Button|  Game Rules Pop Up   |Click On | Game Rules Pop Up       |
 | Play Button(Rules)|  Close Rules Pop Up  |Click On | Close Rules Pop Up      |
 | Game Won Message  |  Pops up at Game Won |Game Won | Pops Up Won Message     |
