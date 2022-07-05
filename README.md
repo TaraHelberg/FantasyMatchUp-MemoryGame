@@ -121,6 +121,8 @@ The page has a Favicon that is a dragon going with the theme of fantasy and the 
 
 * Testing During development of the pages was done through the project to see how the project looked and felt
 * Testing and debugging of JavaScript was done constantly via dev tools console.log as this was my first-time using JavaScript many where found a lot to do with using capital or forgetting to use ids or classes to connect the function to the html using the assistance of dev tools and google, I was able to find the bugs and correct the errors in the code
+* Project put up for peer-code-review on Slack an apparent error was reported that 2 cards refused to flip and that after playing the game a few times the game cards would not flip at all or restarting of the game did not work. I have tried to recreate this error in order to fix it in Chrome , Firefox and Edge using console.log in all of these and playing the game extensively in all browsers .Sadly I am unable to get this error to occur from my side and cannot find a console.log fault . I have contacted student tutoring for advice as was suggested to look at -webkit- and run the code through autoprefixer which I have done and added a -webkit-backface-visibility :hidden to the flip-card in the hope that this will eliminate the error .However as I cannot get it to produce the error my side, I will state that I have no idea if this error has been rectified .
+
 
 # Validator Testing
 
